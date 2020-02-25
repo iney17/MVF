@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <title>Карточки товаров</title>
+  </head>
+  <body>
+    <div class="title"><h2>Курсы валют</h2></div>
+    <div class="row" id="row">
+      <div id="date"></div>
+      <div class="outer">
+        <div class="in">
+          <table id="exchangeRates">
+            <thead>
+              <tr>
+                <th class="hidden-sm value-code">Код цифровий</th>
+                <th class="value-codel">Код літерний</th>
+                <th class="value-name">Назва валюти</th>
+                <th class="value-amount">Офіційний курс</th>
+              </tr>
+            </thead>
+
+            <tbody id="inner"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js "></script>
+  </body>
+</html>

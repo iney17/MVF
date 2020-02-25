@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+html {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+table {
+  width: 100%;
+}
+thead,
+th:nth-child(5) {
+  background: #5110e7;
+  color: #fff;
+  height: 75px;
+}
+table td,
+table th {
+  padding: 8px;
+  border: 1px solid #d7d7d7;
+}
+table thead tr,
+tbody tr {
+  border: 1px solid #d7d7d7;
+}
+
+tbody {
+  white-space: nowrap;
+  text-align: center;
+}
+.row {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+}
